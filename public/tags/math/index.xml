@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Math on 漠河neo</title>
+    <link>https://Mohe-neo.github.com/tags/math/</link>
+    <description>Recent content in Math on 漠河neo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>漠河neo</copyright>
+    <lastBuildDate>Mon, 22 May 2023 15:57:29 +0800</lastBuildDate><atom:link href="https://Mohe-neo.github.com/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>数学</title>
+      <link>https://Mohe-neo.github.com/graduate/math/</link>
+      <pubDate>Mon, 22 May 2023 15:57:29 +0800</pubDate>
+      
+      <guid>https://Mohe-neo.github.com/graduate/math/</guid>
+      <description>数学 </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,73 @@
+baseURL = "https://Mohe-neo.github.com/"
+languageCode = "zh-CN"
+title = "漠河neo"
+theme = "cactus"
+copyright = "漠河neo" # 设置版权信息，默认使用标题
+disqusShortname = "example" # 在启用注释时使用。如果未设置，Cactus 将使用网站标题
+# googleAnalytics = "UA-1234-5"
+
+
+# summaryLength = 2
+
+# 主菜单显示在站点标题下方。
+[[menu.main]]
+name = "首页"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "技术"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "考研"
+url = "/graduate"
+weight = 3
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = true
+    style = "dracula"
+    tabWidth = 4
+
+[params]
+  colortheme = "dark" # dark, light, white, or classic # 主题颜色
+  rss = true # 生成 RSS 源。默认值为 false
+  googleAnalyticsAsync = true # 使用异步跟踪。默认同步跟踪
+  showAllPostsArchive = false # default
+
+  # 首页描述信息
+  description = "人教人,百次有余;事教人,一次足矣!"
+  mainSection = "posts" # 主要目录
+  showAllPostsOnHomePage = false # default
+  postsOnHomePage = 12 # 如果 showAllPostsOnHomePage 设置为 true，则该配置生效
+  tagsOverview = true # 默认情况下显示标记概述。
+#  showProjectsList = true # 默认情况下显示项目列表（如果项目数据文件存在）。
+#  projectsUrl = "https://github.com/gohugoio" # 项目列表的标题链接
+
+  # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
+  dateFormat = "2006-01-02" # default
+
+  # 帖子页面设置
+  show_updated = true # default
+  showReadTime = true # default
+
+  # 名称的值应为有效的字体 真棒图标名称（品牌类型）
+  # https://fontawesome.com/icons?d=gallery&s=brands
+  [[params.social]]
+    name = "github"
+    link = "https://github.com/Mohe-neo"
+  [[params.social]]
+    name = "email"
+    link = "gangster.blue@qq.com"  # 不需要在头部使用“mailto：”
